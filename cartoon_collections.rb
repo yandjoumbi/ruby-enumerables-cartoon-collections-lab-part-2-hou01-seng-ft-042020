@@ -40,8 +40,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |element|
     if element == "Earth!" || element == "Wind!" || element == "Fire!" || element== "Water!" || element== "Heart!"
       return element
-    else
-      return
     end
 end
   planeteer_calls
