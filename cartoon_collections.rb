@@ -43,7 +43,7 @@ def find_valid_calls(planeteer_calls)
         return element
     end
        if element ==0
-         return nill
+         return nil
        end
 end
   planeteer_calls
