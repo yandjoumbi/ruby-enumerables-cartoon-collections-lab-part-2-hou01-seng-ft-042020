@@ -42,7 +42,9 @@ def find_valid_calls(planeteer_calls)
       if element == "Earth!" || element == "Wind!" || element == "Fire!" || element== "Water!" || element== "Heart!"
         return element
     end
-
+       if element ==0
+         return nill
+       end
 end
   planeteer_calls
 end
